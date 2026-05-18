@@ -1,0 +1,3 @@
+
+install:
+	@pipx install . --force
