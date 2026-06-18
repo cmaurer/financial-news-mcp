@@ -37,9 +37,16 @@ RSS_FEEDS = {
     "cnbc_business": "https://www.cnbc.com/id/10001147/device/rss/rss.html",
     "cnbc_markets": "https://www.cnbc.com/id/20910258/device/rss/rss.html",
     "ft_markets": "https://www.ft.com/rss/home/uk",
+    "ft_international": "https://www.ft.com/rss/home/international",
     "seeking_alpha": "https://seekingalpha.com/feed.xml",
     "investing_com": "https://www.investing.com/rss/news.rss",
     "bloomberg_markets": "https://feeds.bloomberg.com/markets/news.rss",
+    "wsj_business": "https://feeds.content.dowjones.io/public/rss/WSJcomUSBusiness",
+    "wsj_markets": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain",
+    "wsj_economy": "https://feeds.content.dowjones.io/public/rss/socialeconomyfeed",
+    "fox_business_economy": "https://moxie.foxbusiness.com/google-publisher/economy.xml",
+    "fox_business_markets": "https://moxie.foxbusiness.com/google-publisher/markets.xml",
+    "fox_business_latest": "https://moxie.foxbusiness.com/google-publisher/latest.xml",
 }
 
 SOURCE_CATEGORIES = {
@@ -52,9 +59,16 @@ SOURCE_CATEGORIES = {
     "cnbc_business": "Finance",
     "cnbc_markets": "Markets",
     "ft_markets": "Markets",
+    "ft_international": "International",
     "seeking_alpha": "Investing",
     "investing_com": "Markets",
     "bloomberg_markets": "Markets",
+    "wsj_business": "Business",
+    "wsj_markets": "Markets",
+    "wsj_economy": "Economy",
+    "fox_business_economy": "Economy",
+    "fox_business_markets": "Markets",
+    "fox_business_latest": "Top Stories",
 }
 
 SOURCE_NAMES = {
@@ -66,9 +80,16 @@ SOURCE_NAMES = {
     "cnbc_finance": "CNBC",
     "cnbc_markets": "CNBC",
     "ft_markets": "Financial Times",
+    "ft_international": "Financial Times",
     "seeking_alpha": "Seeking Alpha",
     "investing_com": "Investing.com",
     "bloomberg_markets": "Bloomberg",
+    "wsj_business": "Wall Street Journal",
+    "wsj_markets": "Wall Street Journal",
+    "wsj_economy": "Wall Street Journal",
+    "fox_business_economy": "Fox Business",
+    "fox_business_markets": "Fox Business",
+    "fox_business_latest": "Fox Business",
 }
 
 NS = {
